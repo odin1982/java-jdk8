@@ -6,12 +6,18 @@
 	<artifactId>jdk8</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>Todo sobre jdk8</description>
+	<!-- Adding java 8 -->
+	<properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+	<!-- /Adding java 8 -->
 	<dependencies>
-		<!-- Adding java 8 -->
-		<properties>
-			<maven.compiler.target>1.8</maven.compiler.target>
-			<maven.compiler.source>1.8</maven.compiler.source>
-		</properties>
-		<!-- /Adding java 8 -->
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.17.1</version>
+		</dependency>
 	</dependencies>
 </project>
