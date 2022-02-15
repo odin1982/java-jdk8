@@ -10,7 +10,7 @@ first index                                                     last index
 
 <-----------------------  Array length is 8   -------------------------->
 
-
+```
 Array Type          Corresponding Class Name
 int[]                   [I
 int[][]                 [[I
@@ -19,7 +19,7 @@ double[][]              [[D
 short[]                 [S
 byte[]                  [B
 boolean[]               [Z
-
+```
 
 ## Collections
 - Collections are growable in nature
@@ -282,12 +282,36 @@ Less than root 					Greater than root
 	public int compareTo(Object obj)
 - Meant for Default Natural Sorting Order
 
+public int compareTo(Object obj)
+
+                                obj1.compareTo(obj2)
+        obj1 < obj2             obj1 == obj2              obj1 > obj2
+             -1                      0                          +1
+
+
 ### Comparator Interface
 - Present in java.util package
 - contains two methods
-	public int compare(Object obj1,Object obj2)  	-> you can give your own implementation to this method
-	public boolean equals(Object obj) 				-> implementation is not required
+	
+        public int compare(Object obj1,Object obj2)  	-> you can give your own implementation to this method
+	public boolean equals(Object obj) 	        -> implementation is not required,as Object is super or parent class.
+
 - Meant for customized Sorting Order
 
 
+By default JVM use compareTo method for default natural sorting order.
+
+
+# QUEUE
+```
+                                Collection
+                                     |
+    ------------------------------ Queue ---------------------------
+    |                                |                             |
+LinkedList                     PriorityQueue                 BlockingQueue
+                                                                   |
+                                                        ---------------------
+                                                        |                   |           
+                                                PriorityBlokingQueue LinkedBlockingQueue
+```
 
