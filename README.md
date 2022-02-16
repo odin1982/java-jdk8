@@ -315,3 +315,11 @@ LinkedList                     PriorityQueue                 BlockingQueue
                                                 PriorityBlokingQueue LinkedBlockingQueue
 ```
 
+
+```
+public interface Queue<E> extends Collection<E>
+```
+
+
+
+
