@@ -31,7 +31,7 @@ public class _Book {
 		Integer integer = books.get(new _Book("A111"));// null, no es la misma referencia al objeto
 		Integer integer2 = books.get(a);//true es la misma referencia
 		System.out.println(integer);
-		System.out.println(integer);
+		System.out.println(integer2);
 	}
 
 }
