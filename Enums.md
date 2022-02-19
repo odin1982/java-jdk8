@@ -8,5 +8,9 @@ public enum Season{
 }
 ```
 
+#### Notas
+
+* No se puede extender un enum
+
 
 
