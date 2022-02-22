@@ -320,6 +320,14 @@ LinkedList                     PriorityQueue                 BlockingQueue
 public interface Queue<E> extends Collection<E>
 ```
 
+# MAP
+
+* Es una interface que representa un mapeo entre una llave y valor.
+* Keys and values son objetos, pueden ser cualquier tipo de datos
+* Keys duplicadas nos on permitidas, valores si pueden ser duplicados.
+ 
+
+
 
 
 
