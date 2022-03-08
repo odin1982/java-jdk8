@@ -1,5 +1,6 @@
 package src.main.java.jdk8_02_;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Date;
 
@@ -25,4 +26,12 @@ public class SortTest {
     public static int diff(Date d1, Date d2){
         return d1.compareTo(d2);
     }
+
+    public static void main(String[] args) {
+        ArrayList<Person> a1 = new ArrayList<>();
+        a1.add(new Person("Paul","01012000"));
+        a1.add(new Person("Peter","01011990"));
+        a1.add(new Person("Patrick","01012002"));
+    }
 }
+
