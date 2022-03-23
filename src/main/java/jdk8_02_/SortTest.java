@@ -32,6 +32,10 @@ public class SortTest {
         a1.add(new Person("Paul","01012000"));
         a1.add(new Person("Peter","01011990"));
         a1.add(new Person("Patrick","01012002"));
+        //java.util.Collections.sort(a1,(p1, p2) -> p1.dob.compareTo(p2.dob));
+        //java.util.Collections.sort(a1,SortTest::diff);
+        //java.util.Collections.sort(a1,new MySorter()::compare);
+        //java.util.Arrays.sort(a1,SortTest::diff);
     }
 }
 
