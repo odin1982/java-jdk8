@@ -2,6 +2,8 @@ package jdk8.enums._01_.declaration;
 
 import org.junit.Test;
 
+import jdk8.enums.declaration.Seasons;
+
 public class SeasonsTest {
 
 	@Test

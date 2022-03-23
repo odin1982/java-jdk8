@@ -1,4 +1,4 @@
-package jdk8.enums._01_.declaration;
+package jdk8.enums.declaration;
 
 /**
  * @author odina
