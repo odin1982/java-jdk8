@@ -15,4 +15,8 @@ public enum Season{
 ##### ENUM.values()
 Este metodo obtiene todos los valores del enum y los convierte en un array.
 
+#### Notas
+* No se puede extender un enum
+
+
 
