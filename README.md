@@ -326,8 +326,24 @@ public interface Queue<E> extends Collection<E>
 * Keys and values son objetos, pueden ser cualquier tipo de datos
 * Keys duplicadas nos on permitidas, valores si pueden ser duplicados.
  
+# HASHCODE
+```
+			->		equals()
+Object	
+			->		hashCode()
+```
 
+# HASHMAP
+* No se lleva un orden al momento de insertar
+* KEYS duplicadas no son permitidas
+* Permite nulls como llave solo una vez, los valores pueden ser nulos mas de una vez
+* Llave - Valor
+* Implementa la interfaz Serializable y Clonable
+* Mejor opcion para busqueda de operaciones
+* Usa hashing para guardar objetos
 
-
+```
+		Map		->		HashMap		->		LinkedHashMap
+```
 
 
