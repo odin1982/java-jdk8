@@ -346,4 +346,37 @@ Object
 		Map		->		HashMap		->		LinkedHashMap
 ```
 
+# THREAD SAFE
+Significa que puedes usar una clase en varios Threads sin tener problemas
 
+# DIFERENCIA ENTRE HASHTABLE Y HASHMAP
+```
+HASHMAP												HASHTABLE
+No Thread safe										Thread-safe
+Fast but data may be inconsistent				Slow because of locking
+Allows one null key, multiple null values		Null key and values are not 
+													allowed
+1.2 version										Legacy class
+Extends AbstractMap								extends Dictionary
+
+```
+
+# LINKED HASHMAP
+
+```
+Map(I)	-->	HashMap(C)	-->	LinkedHashMap(C)
+
+					
+LinkedHashMap		-->		HashTable + LinkedList
+
+
+HASHMAP									LINKEDHASHMAP
+
+Insertion order is not preserved	Insertion order is preserved with the 										help of linkedList
+
+1.2 version							1.4 version
+										
+										Used for developing cache based 										application
+
+		
+```
