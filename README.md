@@ -380,3 +380,12 @@ Insertion order is not preserved	Insertion order is preserved with the 									
 
 		
 ```
+
+# IDENTITY HASHMAP
+HashMap usa el metodo equals para identificar si un objeto es igual y poderlo agregar a la colección, con IdentityHashMap la comparación es via referencia.
+
+
+HASHMAP							IDENTITYHASHMAP
+equals Method					== operator
+Key1.equals(Key2)				Key1 == Key2
+
