@@ -389,3 +389,10 @@ HASHMAP							IDENTITYHASHMAP
 equals Method					== operator
 Key1.equals(Key2)				Key1 == Key2
 
+# WEAKHASHMAP
+
+Map(I)		<-	WeakHashMap(C)
+
+
+Los objetos que no tienen referencia son eligibles para el Garbage Collector para ser eliminados, si tu lo agregas a un HashMap  este objeto a pesar de no tener una referencia ya
+no es elegible por el GC,con WeakHashMap si es elegible.
