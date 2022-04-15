@@ -411,3 +411,13 @@ Ordena en modo ascendente las llaves.
 
 * Llaves nulas o valores nulos no son permitidos.
 * Las llaves son ordenadas por orden natural o por un Comparator especial.
+
+
+# TREEMAP
+
+Map(I) <- SortedMap <- NavigableMap(I) <- TreeMap(C)
+
+* Insertion order is not preserved
+* Ducplicate keys are not allowes
+* Default Sorting order
+* Customized Order
