@@ -396,3 +396,18 @@ Map(I)		<-	WeakHashMap(C)
 
 Los objetos que no tienen referencia son eligibles para el Garbage Collector para ser eliminados, si tu lo agregas a un HashMap  este objeto a pesar de no tener una referencia ya
 no es elegible por el GC,con WeakHashMap si es elegible.
+
+
+# SORTEDMAP
+
+Map(I)	<-	SortedMap(I)
+
+SortedMap(I) <- ConcurrentNavigableMap<K,V> , NavigableMap<K,V>
+
+SortedMap(I) <- ConcurrentSkipListMap, TreeMap(C)
+
+
+Ordena en modo ascendente las llaves.
+
+* Llaves nulas o valores nulos no son permitidos.
+* Las llaves son ordenadas por orden natural o por un Comparator especial.
