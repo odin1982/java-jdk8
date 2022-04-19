@@ -421,3 +421,16 @@ Map(I) <- SortedMap <- NavigableMap(I) <- TreeMap(C)
 * Ducplicate keys are not allowes
 * Default Sorting order
 * Customized Order
+
+
+# CONCURRENT COLLECTIONS
+
+Map(I) <- ConcurrentMap(I) <- ConcurrentHashMap
+
+HashMap:	Not thread Safe - So in Multitheading environment this data structure
+			can lead to data inconsistency issues.
+
+HashTable:		Thread-Safe but poor in performance as the full object get locked
+				in read/write. Only one thread is allowed to operate.
+
+ConcurrentHashMap:	Thread Safe and better in performance as no lock wile read and 					segment is locked while write not full object.
