@@ -434,3 +434,60 @@ HashTable:		Thread-Safe but poor in performance as the full object get locked
 				in read/write. Only one thread is allowed to operate.
 
 ConcurrentHashMap:	Thread Safe and better in performance as no lock wile read and 					segment is locked while write not full object.
+
+
+## lambda
+
+### type 1
+public void myName(){
+	sysout("John");
+}
+
+lambda has no name
+
+public void (){
+	sysout("John");
+}
+
+lambda has no access modified
+void(){
+	sysout("John");
+}
+
+lambda has no return type
+
+(){
+	sysout("John");
+}
+
+() -> {
+	sysout("John");
+}
+
+() -> sysout("John");
+
+
+### type 2
+
+public void add(int a, int b){
+	sysout(a+b);
+}
+
+(int a, int b){ sysout(a+b); }
+
+(int a, int b) ->  sysout(a+b);
+
+(a,b) ->  sysout(a+b);
+
+### type 3
+
+public int length(String s){
+	return s.lenght();
+}
+ 
+(String s) -> { return s.lenght(); }
+(s) -> s.lenght();
+
+
+## functional interfaces
+* Contiene solo y unicamnete un metodo abstracto.
