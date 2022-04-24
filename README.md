@@ -491,3 +491,30 @@ public int length(String s){
 
 ## functional interfaces
 * Contiene solo y unicamnete un metodo abstracto.
+
+## Predicates
+
+interface Predicate<T>{
+	boolean test(T t);
+}
+
+## Function
+Recibes un parametro T lo procesas y envias un resultado R
+interface Function<T,R>{
+	R apply(T t);
+}
+
+## Consumer
+Consume algo pero no retorna nada
+
+interface Consumer<T>{
+	void accept(T t);
+}
+
+## Supplier
+No consume nada solo responde con algo
+interface Supplier<R>{
+	R get();
+}
+
+## Operator :: Method reference
