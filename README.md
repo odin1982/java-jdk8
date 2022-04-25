@@ -517,4 +517,11 @@ interface Supplier<R>{
 	R get();
 }
 
-## Operator :: Method reference
+## Streams
+Process data fast using multicore processor
+
+Data processing with Streams
+----------------------------
+Configuration		Processing
+-------------
+filter map
