@@ -520,8 +520,28 @@ interface Supplier<R>{
 ## Streams
 Process data fast using multicore processor
 
-Data processing with Streams
-----------------------------
-Configuration		Processing
--------------
-filter map
+```
+									Data processing with Streams
+												  |
+								    ----------------------------
+                                     |               |
+                              Configuration		Processing
+                              -------------
+                              |           |
+                            filter       map
+```
+
+
+## Paralel stream
+parallelStream() method on a collection
+parallel() method on a stream
+
+
+* Stateless
+Estado de un elemento que no afecta a otro elemnto
+
+* Non-Interfering
+Datasource is not affected while operation
+
+* Associative: One operation result is not affected by the order of data under processing
+
