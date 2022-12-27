@@ -1,4 +1,4 @@
-package main.java.com.java.lambda;
+package com.java.lambda;
 
 interface Shape{
 	void draw();
@@ -41,7 +41,7 @@ public class LambdaExample {
 //			System.out.println("Rectangle class : draw() method");
 //		}
 		
-		//Como convertir el metodo de arriba en una expresión lambda
+		//Como convertir el metodo de arriba en una expresiï¿½n lambda
 		
 		Shape rectangle =  () -> System.out.println("Rectangle class : draw() method");
 		//rectangle.draw();

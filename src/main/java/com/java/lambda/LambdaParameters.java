@@ -1,4 +1,4 @@
-package main.java.com.java.lambda;
+package com.java.lambda;
 
 interface Addable{
     int addition(int a, int b);

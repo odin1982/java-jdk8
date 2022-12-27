@@ -1,4 +1,4 @@
-package main.java.com.java.lambda;
+package com.java.lambda;
 
 @FunctionalInterface
 public interface MyFunctionalInterface {
