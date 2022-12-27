@@ -1,4 +1,4 @@
-package com.java.lambda;
+package main.java.com.java.lambda;
 
 interface Shape{
 	void draw();
