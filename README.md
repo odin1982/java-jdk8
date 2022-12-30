@@ -24,6 +24,23 @@ Addable withLambdaD = (int a, int b) -> (a+b);
 ## java.util.function
 https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
 
+## method references
+method reference is used to refer method of the functional interface. It is a compact and easy fomr of
+lambda expresion.
+
+each time when you are using a lambda expresiion to just referring a method, you can replace your lambda expression with a method reference. 
+
+Printable printableLambda = (String msg) -> System.out.println(msg);
+
+Printable printable = System.out::println;
+
+## types of method references
+
+- method reference to static method, its syntax is Class::StaticMethodName
+- reference to an instance method of a particular object: Object::instanceMethodName
+- reference to an instance method of an arbitrary obeject of specific type Class::instanceMethod
+- reference to a constructor: ClassName::new
+
 
 Link tutorial: https://www.youtube.com/watch?v=UfJ0lCH7FMM&t=7s
-Avance:	1:05:00
+Avance:	1:20:00
