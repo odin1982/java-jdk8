@@ -41,6 +41,10 @@ Printable printable = System.out::println;
 - reference to an instance method of an arbitrary obeject of specific type Class::instanceMethod
 - reference to a constructor: ClassName::new
 
+## java Optional class
+This class can help in avoiding null checks and NullPointerException exceptions.
+Yo can view Optional as a single-value container thet either contains a value or doesn't(it is then said to be empty)
+
 
 Link tutorial: https://www.youtube.com/watch?v=UfJ0lCH7FMM&t=7s
-Avance:	1:37:00
+Avance:	2:01:00

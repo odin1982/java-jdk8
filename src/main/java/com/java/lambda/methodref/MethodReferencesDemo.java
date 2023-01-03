@@ -1,8 +1,10 @@
 package com.java.lambda.methodref;
 
-import com.java.lambda.functional.FunctionDemo;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
