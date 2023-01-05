@@ -47,4 +47,4 @@ Yo can view Optional as a single-value container thet either contains a value or
 
 
 Link tutorial: https://www.youtube.com/watch?v=UfJ0lCH7FMM&t=7s
-Avance:	2:01:01
+Avance:	2:14:21	- default and static methods in interfaces
