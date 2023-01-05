@@ -95,6 +95,62 @@ public class OptionalDemo {
         String s4 = email_12.orElseGet(() -> "default12@gmail.com");
         System.out.println(s4);
 
-
+        
+        /*
+         * 	orElseThrow(Supplier<? extends X> exceptionSupplier)
+			Return the contained value, if present, otherwise throw an exception to be created by the provided supplier.
+         */
+        
+        
+        String email13 = "email13@gmail.com";
+        Optional<String> email_13 = Optional.ofNullable(email13);
+        String s5 = email_13.orElseThrow(() -> new IllegalArgumentException());
+        System.out.println(s5);
+        
+//        String email14 = null;
+//        Optional<String> email_14 = Optional.ofNullable(email14);
+//        String s6 = email_14.orElseThrow(() -> new IllegalArgumentException("Email is not exist"));
+//        System.out.println(s6);
+        
+        /*
+         * 	ifPresent(Consumer<? super T> consumer)
+			If a value is present, invoke the specified consumer with the value, otherwise do nothing.
+        */
+        
+        Optional<String> gender = Optional.of("MALE");
+        Optional<String> emptyOptional2 = Optional.empty();
+        
+        gender.ifPresent((s1) -> System.out.println("value is present"));
+        emptyOptional2.ifPresent((eo)->System.out.println("no value present"));
+        
+        
+        /*
+         * 	filter(Predicate<? super T> predicate)
+			If a value is present, and the value matches the given predicate, return an Optional describing the value, otherwise return an empty Optional.
+         */
+        
+        String result = "abc";
+        if(result != null && result.contains("abc")) {
+        	System.out.println(result);
+        }
+        
+        
+        Optional<String> optionalStr = Optional.of(result);
+        optionalStr.filter(res -> res.contains("abc"))
+        	.ifPresent((res)-> System.out.println(res));
+        
+//        result ="adv";
+//        Optional<String> optionalStr2 = Optional.of(result);
+//        optionalStr2.filter(res -> res.contains("abc"))
+//        	.ifPresent((res)-> System.out.println(res));
+        
+        // es lo mismo que arriba pero usando metodos de referencia
+        result ="adv";
+        Optional<String> optionalStr2 = Optional.of(result);
+        optionalStr2.filter(res -> res.contains("abc"))
+        	.ifPresent(System.out::println);
+        
+        
+        
     }
 }
