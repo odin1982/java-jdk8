@@ -45,6 +45,16 @@ Printable printable = System.out::println;
 This class can help in avoiding null checks and NullPointerException exceptions.
 Yo can view Optional as a single-value container thet either contains a value or doesn't(it is then said to be empty)
 
+## Stream API
+
+Stream representa una secuencia de objetos de una fuente, en la cual soporta agregar operaciones.
+
+-java.util.stream
+
+### How Stream Works?
+Source -> Filter -> Sort -> Map -> Collect
+
+
 
 Link tutorial: https://www.youtube.com/watch?v=UfJ0lCH7FMM&t=7s
-Avance:	2:14:21	- default and static methods in interfaces
+Avance:	2:32:21
