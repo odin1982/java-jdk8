@@ -2,7 +2,9 @@ package com.java.stream;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Stream;
 
 /*
@@ -28,6 +30,17 @@ public class CreateStreamObjects {
 		List<String> list = Arrays.asList("Java","J2EE","Spring","Hibernate");
 		Stream<String> stream3 = list.stream();
 		stream3.forEach(System.out::println);
+		
+		System.out.println("\n4)");
+		Set<String> set = new HashSet<>(list);
+		Stream<String> stream4 = set.stream();
+		stream4.forEach(System.out::println);
+		
+		System.out.println("\n5)");
+		String[] strArray = {"a","b","c"};
+		Stream<String> stream5 = Arrays.stream(strArray);
+		stream5.forEach(System.out::println);
+		
 	}
 
 }
