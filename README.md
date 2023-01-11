@@ -1,7 +1,7 @@
 # jdk8
 
 ## lambda
-- es una funciÃ³n anonima. 
+- es una función anonima. 
 - una funcion sin nombre
 - no pertenece a ninguna clase
 - es usada principalmente para implementar interfaces funcionales
@@ -25,8 +25,7 @@ Addable withLambdaD = (int a, int b) -> (a+b);
 https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
 
 ## method references
-method reference is used to refer method of the functional interface. It is a compact and easy fomr of
-lambda expresion.
+method reference is used to refer method of the functional interface. It is a compact and easy fomr of lambda expresion.
 
 each time when you are using a lambda expresiion to just referring a method, you can replace your lambda expression with a method reference. 
 
@@ -54,7 +53,6 @@ Stream representa una secuencia de objetos de una fuente, en la cual soporta agr
 ### How Stream Works?
 Source -> Filter -> Sort -> Map -> Collect
 
-
-
 Link tutorial: https://www.youtube.com/watch?v=UfJ0lCH7FMM&t=7s
-Avance:	2:32:21
+FINISHED.
+
