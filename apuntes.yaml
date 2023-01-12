@@ -19,4 +19,5 @@ jdk8:
          - the method can be abstract or concrete      
          - los metodos abstractos en clases hijas podrian no aparecer en una clase no abstracta
          - la primera subclase concreta de una clase abstracta debe implementar todos los metodos abstractos
-  
+  instanceof:
+      definicion: La expresion returna "true" si la referencia es una instancia de la clase "b", una subclase de "b" o una clase que implementa la interfaz "b"
