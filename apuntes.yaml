@@ -12,4 +12,11 @@ jdk8:
          - varargs
    method signature-metodo de firma: 
       definicion:   Es el nombre del metodo y la lista de parametros
-   
+   metodo abstracto:
+      rules:
+         - you could leave it blank, is not required to have any methods in it
+         - may contain any number of methods including zero
+         - the method can be abstract or concrete      
+         - los metodos abstractos en clases hijas podrian no aparecer en una clase no abstracta
+         - la primera subclase concreta de una clase abstracta debe implementar todos los metodos abstractos
+  
