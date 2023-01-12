@@ -1,0 +1,15 @@
+jdk8:
+   overriding-sobreescritura: 
+      definicion:   Ocurre cuando la firma del metodo es la misma.
+      rules:
+         - the access modifier must be the same or more accesible
+   overloading:
+      rules:
+         - exact match by type
+         - matching a superclass type
+         - converting to a larger primitive type
+         - converting to an autoboxed type
+         - varargs
+   method signature-metodo de firma: 
+      definicion:   Es el nombre del metodo y la lista de parametros
+   
