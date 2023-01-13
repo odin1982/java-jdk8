@@ -1,0 +1,16 @@
+jdk8:
+   variables locales:
+      rules:
+        - Las variables locales deben ser inicializadas
+   ArrayList:
+      metodos:
+         set:
+            declaration: set(int index, E element)
+            definicion:  Replaces the element at the specified position in this list with the specified element.
+         remove:
+            declaration:  remove(int index)
+            definicion:   Removes the element at the specified position in this list.
+
+   PUNTOS DEBILES DETECTADOS:
+      temas:
+         - jerarquia de excepciones
