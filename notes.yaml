@@ -10,7 +10,21 @@ jdk8:
          remove:
             declaration:  remove(int index)
             definicion:   Removes the element at the specified position in this list.
+   wildcard:
+      definition: The * is a wildcard y obtiene todas las clases en un paquete.
+   packages:
+      java.lang: Este paquete es especial ya que es automaticamnete importado por Java.
+   paquetes redundantes:
+      definition: son aquellos paquetes que no necesitamos agregar en los imports como los de java.lang y clases que s eencuentren en
+      el mismo paquete o visibilidad.
+   
+   
+   
+
+   
+       
 
    PUNTOS DEBILES DETECTADOS:
       temas:
          - jerarquia de excepciones
+   
