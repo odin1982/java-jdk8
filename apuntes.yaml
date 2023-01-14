@@ -3,6 +3,9 @@ jdk8:
       definicion:   Ocurre cuando la firma del metodo es la misma.
       rules:
          - the access modifier must be the same or more accesible
+      " @Override ": Se usa para expresar que el metodd que estas creando es un metodo sobreescrito o implementa un metodo de 
+                     una interface.
+                     - Solo se usa en metodos. 
    overloading:
       rules:
          - exact match by type
@@ -19,5 +22,10 @@ jdk8:
          - the method can be abstract or concrete      
          - los metodos abstractos en clases hijas podrian no aparecer en una clase no abstracta
          - la primera subclase concreta de una clase abstracta debe implementar todos los metodos abstractos
-  instanceof:
+   instanceof:
       definicion: La expresion returna "true" si la referencia es una instancia de la clase "b", una subclase de "b" o una clase que implementa la interfaz "b"
+   annotation:
+      definition: Es informacion extra y es un tipo de metadata, puede ser usado por el compilador o en tiempo de ejecucion
+                  y empieza con una @.
+   
+   
