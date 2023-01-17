@@ -30,6 +30,6 @@ jdk8:
    object class: Todas las clases en Java heredan de java.lang.Object y tiene 3 metodos importantes.
       toString: Nosotros usamos este metodo para imprimir un objeto
    reflection: Es una tecnica para ver información de una clase en tiempo de ejecución.
-   
+   ==: Java usa esta operador en tipos primitivos para comprar si son iguales en objetos revisa si refieren al mismo objeto
    
    
