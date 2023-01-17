@@ -1,7 +1,9 @@
 buids upon	-	se basa
+whereas -   mientras que
+granted - dado
 
 
 
 ## phrasal verbs
-point out	-	señalar
+point out	-	seï¿½alar
 first up	-	en primer lugar
