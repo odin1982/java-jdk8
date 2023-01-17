@@ -27,5 +27,9 @@ jdk8:
    annotation:
       definition: Es informacion extra y es un tipo de metadata, puede ser usado por el compilador o en tiempo de ejecucion
                   y empieza con una @.
+   object class: Todas las clases en Java heredan de java.lang.Object y tiene 3 metodos importantes.
+      toString: Nosotros usamos este metodo para imprimir un objeto
+   reflection: Es una tecnica para ver información de una clase en tiempo de ejecución.
+   
    
    
