@@ -17,6 +17,11 @@ jdk8:
    paquetes redundantes:
       definition: son aquellos paquetes que no necesitamos agregar en los imports como los de java.lang y clases que s eencuentren en
       el mismo paquete o visibilidad.
+   constructors:
+      definition: Es un tipo de metodo especial que crea un objeto.
+      rules:
+         - debe tener el mismo nombre de la clase
+         - No debe tener tipo de retorno
    
    
    
