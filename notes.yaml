@@ -23,7 +23,11 @@ jdk8:
          - debe tener el mismo nombre de la clase
          - No debe tener tipo de retorno
    bloque de codigo: todo aquello que este entre corchetes es un bloque de codigo
+      orden de initializacion:
+         - campos y bloques inicializadores de instancia se ejecutan en orden en el que aparecen
+         - el constructor corre despues d elos campos y los bloques inicializadores de instancia
    instance initializers: bloques de codigo fuera de un metodo
+   
    
    
    
