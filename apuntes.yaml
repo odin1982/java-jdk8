@@ -31,5 +31,10 @@ jdk8:
       toString: Nosotros usamos este metodo para imprimir un objeto
    reflection: Es una tecnica para ver información de una clase en tiempo de ejecución.
    ==: Java usa esta operador en tipos primitivos para comprar si son iguales en objetos revisa si refieren al mismo objeto
+   hashCode: 
+      definition: whenever you override equals, you are also expected to everride hashCode(). the hash code is used whwn storing the obejct as a key in a map. A hash code is a number
+      that put instances of a class into a finite number of categories.
+      contract hashCode: pag19
+
    
    
