@@ -22,6 +22,8 @@ jdk8:
       rules:
          - debe tener el mismo nombre de la clase
          - No debe tener tipo de retorno
+   bloque de codigo: todo aquello que este entre corchetes es un bloque de codigo
+   instance initializers: bloques de codigo fuera de un metodo
    
    
    
