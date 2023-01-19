@@ -1,4 +1,4 @@
-package codingEqualsHashCodeToString.toString;
+package chapter_01.codingEqualsHashCodeToString.toString;
 
 public class Hippo {
 	private String name;

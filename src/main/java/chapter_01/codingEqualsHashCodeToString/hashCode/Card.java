@@ -1,4 +1,4 @@
-package hashCode;
+package chapter_01.codingEqualsHashCodeToString.hashCode;
 
 public class Card {
 	private String rank;

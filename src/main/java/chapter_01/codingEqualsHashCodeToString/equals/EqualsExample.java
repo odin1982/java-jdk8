@@ -1,4 +1,4 @@
-package codingEqualsHashCodeToString.equals;
+package chapter_01.codingEqualsHashCodeToString.equals;
 
 public class EqualsExample {
 	public static void main(String[] args) {
