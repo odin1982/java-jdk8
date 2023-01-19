@@ -45,6 +45,19 @@ jdk8:
          - you cant extend an enum
          - el constructor debe ser private
          - un enum puede tener un metodo abstracto y en cada declaracion de enum se debe de implementar
+   nested classes:
+      definition: Es una clase que esta definida dentro de otra clase
+      tipos:
+         member inner classes: es una clase que esta definida  en el mismo nivel que las variables de instancia
+            rules:
+               - can be declared public, private or protected or use default access
+               - can extend any class and implement interfaces
+               - can be abstract or final
+               - cannot declare fields or methods
+               - can access members of the outer class including private members
+         local inner classes: es una clase que esta definida dentro de un metodo
+         anonymous inner classes: es un caso especial de una clase local anidada que no tiene nombre
+         static nested classes:  es una clase estatica definida al mismo nivel que las variables estaticas
    
 
    
