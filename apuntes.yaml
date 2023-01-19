@@ -29,12 +29,23 @@ jdk8:
                   y empieza con una @.
    object class: Todas las clases en Java heredan de java.lang.Object y tiene 3 metodos importantes.
       toString: Nosotros usamos este metodo para imprimir un objeto
-   reflection: Es una tecnica para ver información de una clase en tiempo de ejecución.
+   reflection: Es una tecnica para ver información de una clase en tiempo de ejecucion.
    ==: Java usa esta operador en tipos primitivos para comprar si son iguales en objetos revisa si refieren al mismo objeto
    hashCode: 
       definition: whenever you override equals, you are also expected to everride hashCode(). the hash code is used whwn storing the obejct as a key in a map. A hash code is a number
       that put instances of a class into a finite number of categories.
       contract hashCode: pag19
+   enums:
+      definition: conjunto de constantes, una clase que representa una enumeracion, provee typed-safe-checking, principalmente contiene miembros estaticos.
+      method values(): obtiene todos los valores del enum
+      method ordinal(): obtiene el valor int del Enum
+      method valueOf(): Creas un Enum de un String
+      rules:
+         - you cant compare an int with an Enum value
+         - you cant extend an enum
+         - el constructor debe ser private
+         - un enum puede tener un metodo abstracto y en cada declaracion de enum se debe de implementar
+   
 
    
    
