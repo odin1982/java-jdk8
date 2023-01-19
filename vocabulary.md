@@ -2,6 +2,8 @@ buids upon	-	se basa
 whereas -   mientras que
 granted - dado
 
+pag27
+	awkward: extraño
 
 
 ## phrasal verbs
