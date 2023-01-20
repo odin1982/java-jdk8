@@ -55,9 +55,22 @@ jdk8:
                - can be abstract or final
                - cannot declare fields or methods
                - can access members of the outer class including private members
+               - como no es estatica tiene que ser usada dentro de una instancia de su clase externa
          local inner classes: es una clase que esta definida dentro de un metodo
+            rules:
+               - solo se pueden crear instancias dentro del metodo
+               - they do not have an access specifier
+               - they cannot be declared static and cannot declare static fields or methods
+               - they have access to all fields and methods of the enclosing class
+               - they do not have access to local variables of a method unless those variables are final or effectively final.
          anonymous inner classes: es un caso especial de una clase local anidada que no tiene nombre
          static nested classes:  es una clase estatica definida al mismo nivel que las variables estaticas
+   effectively final:
+      definition: final and effectively final are similar but just that effective Final variables are not declared with keyword FINAL
+      rules:
+         - es una variable local
+         - not defined as final
+         - assigned to only once
    
 
    
