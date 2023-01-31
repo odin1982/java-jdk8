@@ -10,6 +10,10 @@ pag 48:
 	smoothly:	suavemente
 	lifespan: 	vidautil
 
+pag 54:
+	hop:	brincar
+	
+
 
 ## phrasal verbs
 point out	-	se�alar
