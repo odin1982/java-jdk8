@@ -72,7 +72,9 @@ jdk8:
          - not defined as final
          - assigned to only once
    interface:
-      purpose of an interface: facilita desarrollar aplicaciones rapido, realizandolas en paralelo 
+      purpose of an interface: facilita desarrollar aplicaciones rapido, realizandolas en paralelo
+   funtional programing:
+      functional interface: es una interface que contiene solo un metodo abstracto
    
 
    
