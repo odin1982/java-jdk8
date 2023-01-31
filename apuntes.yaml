@@ -71,6 +71,8 @@ jdk8:
          - es una variable local
          - not defined as final
          - assigned to only once
+   interface:
+      purpose of an interface: facilita desarrollar aplicaciones rapido, realizandolas en paralelo 
    
 
    
