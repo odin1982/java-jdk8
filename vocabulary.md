@@ -3,9 +3,15 @@ whereas -   mientras que
 granted - dado
 
 pag27
-	awkward: extraño
+	awkward: extraï¿½o
+
+pag 48:
+	adhering:	aderir
+	smoothly:	suavemente
+	lifespan: 	vidautil
 
 
 ## phrasal verbs
 point out	-	seï¿½alar
 first up	-	en primer lugar
+touch on	-	hablamos de
