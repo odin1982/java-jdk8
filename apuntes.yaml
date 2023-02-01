@@ -79,6 +79,8 @@ jdk8:
          - the left side of arrow operator -> indicates the input parameters for the lambda expression.
          - it can be consume by a functional interface
          - the right side is the body of the lambda expression
+   polymorphism: 
+      definition: Es la propiedad de un objeto para tomar diferentes formas.
    
 
    
