@@ -81,6 +81,16 @@ jdk8:
          - the right side is the body of the lambda expression
    polymorphism: 
       definition: Es la propiedad de un objeto para tomar diferentes formas.
+   distinguir entre un objeto y una referencia:
+      - el tipo del objeto determina que propiedades existen dentro del objeto en memoria
+      - el tipo de referencia determina los metodos y variables que son accesibles en el programa Java
+   casting variables:
+      rules:
+         - castear un objeto de una subclase a una superclase no necesita cast
+         - castear un objeto de una superclase a una subclase necesita cast
+         - el compilador no permite cast entre tipos no relacionados
+         - aun cuando el codigo compila sin fallas, una excepcion puede ser lanzada en tiempo de ejecucion,
+            si el objeto casteado no es una instancia de la clase
    
 
    

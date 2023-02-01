@@ -12,6 +12,9 @@ pag 48:
 
 pag 54:
 	hop:	brincar
+
+pag 63:
+	it therefore follows:	de ello se deduce
 	
 
 
