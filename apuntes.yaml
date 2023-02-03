@@ -102,6 +102,16 @@ jdk8:
       definition:  propiedad de un objeto que garantiza una ejecucion segura por multiples threads al mismo tiempo.
    synchronized:
       definition: significa que solo un thread sera permitido en un metodo a la vez
+   pattern singleton pattern:
+      definition: sirve para crear un objeto en memoria solo una vez en una aplicacion y es compartido por multiples clases.
+   pattern immutable object:
+      definition: sirve para crear objetos de solo lectura
+      rules:
+         - usar un constructor para setear todos las propiedades del objeto
+         - marcar todas las variables de instanca private y final
+         - no definir ningun metodo setter
+         - no permitir objetos referenciados mutables para ser modificados o directamente accesados
+         - prevenir metodos de ser sobreescritos
 
    
 
