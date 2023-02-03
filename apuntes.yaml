@@ -91,6 +91,14 @@ jdk8:
          - el compilador no permite cast entre tipos no relacionados
          - aun cuando el codigo compila sin fallas, una excepcion puede ser lanzada en tiempo de ejecucion,
             si el objeto casteado no es una instancia de la clase
+   design principle:
+      definition: es una idea o las mejores practicas que facilitan el diseño de software
+      ventajas de usar design principle:
+         - more logical code
+         - code that is easier to understand
+         - clases que son faciles de reusar
+         - clases que son faciles de mantener
+         
    
 
    

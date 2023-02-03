@@ -15,6 +15,9 @@ pag 54:
 
 pag 63:
 	it therefore follows:	de ello se deduce
+
+pag 66:
+	for the sake of brevity: por razones de brevedad
 	
 
 
