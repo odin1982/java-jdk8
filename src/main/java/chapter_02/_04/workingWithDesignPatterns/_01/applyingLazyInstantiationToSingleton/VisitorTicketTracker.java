@@ -3,7 +3,7 @@ package chapter_02._04.workingWithDesignPatterns._01.applyingLazyInstantiationTo
 public class VisitorTicketTracker {
 	private static VisitorTicketTracker instance;
 	private VisitorTicketTracker() {}
-	public static VisitorTicketTracker getInstance() {
+	public static synchronized VisitorTicketTracker getInstance() {
 		if(instance == null) {
 			instance = new VisitorTicketTracker();
 		}

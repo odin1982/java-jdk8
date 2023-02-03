@@ -98,7 +98,11 @@ jdk8:
          - code that is easier to understand
          - clases que son faciles de reusar
          - clases que son faciles de mantener
-         
+   thread safety:
+      definition:  propiedad de un objeto que garantiza una ejecucion segura por multiples threads al mismo tiempo.
+   synchronized:
+      definition: significa que solo un thread sera permitido en un metodo a la vez
+
    
 
    
