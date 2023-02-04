@@ -1,4 +1,4 @@
-package chapter_02._04.workingWithDesignPatterns._02.creatingImmutableObjects.case02;
+package chapter_02._04.workingWithDesignPatterns._03.usingBuilderPattern;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,5 +30,12 @@ public final class Animal {
 	public int getFavoriteFoodsCount() {
 		return favoriteFoods.size();
 	}
-
+	
+	@Override
+	public String toString() {
+		return "Animal [species=" + species + ", age=" + age + ", favoriteFoods=" + favoriteFoods + "]";
+	}
+	
+	
+	
 }
