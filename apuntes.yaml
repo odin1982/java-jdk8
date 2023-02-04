@@ -112,6 +112,15 @@ jdk8:
          - no definir ningun metodo setter
          - no permitir objetos referenciados mutables para ser modificados o directamente accesados
          - prevenir metodos de ser sobreescritos
+   pattern builder:
+      definition: sirve para crear un objeto que requiere setear demasiados atributos al momento de ser instanciado.
+   tigh coupling:
+      definition: es cuando una clase depende demasiado de otra.
+   loose coupling:
+      definition: es cuando una clase depende lo minimo de otra clase.Lo que se pretende es que las clases se han poco dependientes de otras.
+   factory pattern:
+      definition: se usa para crear objetos y no sabes el tipo de objeto que es hasta que esta en tiempo de ejecucion.
+      
 
    
 
