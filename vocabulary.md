@@ -18,6 +18,9 @@ pag 63:
 
 pag 66:
 	for the sake of brevity: por razones de brevedad
+
+pag 82:
+	stem:	derivar
 	
 
 
