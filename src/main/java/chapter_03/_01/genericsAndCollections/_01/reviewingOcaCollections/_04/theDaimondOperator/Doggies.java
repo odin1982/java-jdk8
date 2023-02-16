@@ -1,4 +1,4 @@
-package chapter_03.genericsAndCollections._01.reviewingOcaCollections._04.theDaimondOperator;
+package chapter_03._01.genericsAndCollections._01.reviewingOcaCollections._04.theDaimondOperator;
 
 import java.util.ArrayList;
 import java.util.List;

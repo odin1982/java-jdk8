@@ -1,4 +1,4 @@
-package chapter_04.workingWithGenerics;
+package chapter_03._02.workingWithGenerics._01.workingWithGenerics;
 
 import java.util.ArrayList;
 import java.util.List;

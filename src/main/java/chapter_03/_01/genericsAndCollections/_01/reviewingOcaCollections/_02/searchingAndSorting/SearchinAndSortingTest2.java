@@ -1,4 +1,4 @@
-package chapter_03.genericsAndCollections._01.reviewingOcaCollections._02.searchingAndSorting;
+package chapter_03._01.genericsAndCollections._01.reviewingOcaCollections._02.searchingAndSorting;
 
 import java.util.Arrays;
 import java.util.Collections;

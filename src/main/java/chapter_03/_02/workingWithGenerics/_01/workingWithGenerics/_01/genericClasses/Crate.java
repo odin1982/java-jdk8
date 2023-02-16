@@ -1,4 +1,4 @@
-package chapter_04.workingWithGenerics._01.genericClasses;
+package chapter_03._02.workingWithGenerics._01.workingWithGenerics._01.genericClasses;
 
 public class Crate<T> {
 	private T contents;
