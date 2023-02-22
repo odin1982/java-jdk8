@@ -6,4 +6,6 @@
 	- Eliminacion de casts aumentando la legibilidad del codigo
 
 
+clase instantiation
+
 
