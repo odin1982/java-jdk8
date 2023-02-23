@@ -10,6 +10,7 @@ public class TestClass {
 		List<? super A> list3 = new ArrayList<A>();
 		List<? extends B> list4 = new ArrayList<A>();
 		List<? super B> list5 = new ArrayList<A>();
+		List<?> list6 = new ArrayList<? extends A>();
 	}
 
 }
