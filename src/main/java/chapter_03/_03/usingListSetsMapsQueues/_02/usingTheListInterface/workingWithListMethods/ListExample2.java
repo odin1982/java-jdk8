@@ -1,4 +1,4 @@
-package chapter_03._03.usingListSetsMapsQueues._02.workingWithListMethods;
+package chapter_03._03.usingListSetsMapsQueues._02.usingTheListInterface.workingWithListMethods;
 
 import java.util.ArrayList;
 
