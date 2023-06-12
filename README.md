@@ -1,5 +1,4 @@
 # java-jdk8
 
-
-####Avance
-pag148
+## type erasure
+El proceso de remover la implementacion de sintaxis de Generics a codigo que no lo use
