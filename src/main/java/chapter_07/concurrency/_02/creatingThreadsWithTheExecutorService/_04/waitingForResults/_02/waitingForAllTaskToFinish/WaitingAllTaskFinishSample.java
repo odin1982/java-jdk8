@@ -16,7 +16,7 @@ public class WaitingAllTaskFinishSample {
             Future<Integer> result3 = service.submit(() -> 60 + 11);
             Future<Integer> result4 = service.submit(() -> 70 + 11);
         }finally{
-            if(service != null) service.shut
+            if(service != null) service.shutdown();
         }
 
         if(service != null){
