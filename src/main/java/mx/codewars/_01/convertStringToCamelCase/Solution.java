@@ -1,4 +1,4 @@
-package mx.codewars.convertStringToCamelCase;
+package mx.codewars._01.convertStringToCamelCase;
 class Solution{
   static String toCamelCase(String s){
     StringBuilder phrase = new StringBuilder(s);
