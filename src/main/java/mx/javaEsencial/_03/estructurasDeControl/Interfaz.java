@@ -2,9 +2,19 @@ package mx.javaEsencial._03.estructurasDeControl;
 
 import java.util.Scanner;
 
+import mx.javaEsencial.proyecto.v04.CajeroAutomatico;
+
+
 public class Interfaz {
 	public static void main(String[] args) {
 		int opcionSeleccionada;
+		
+		System.out.println("Por favor introduzca su numero de identificación: ");
+		Scanner scanner = new Scanner(System.in);
+		String identificador = scanner.nextLine();
+		System.out.println("Por favor introduzca su contraseña: ");
+		String contrasena = scanner.nextLine();
+		CajeroAutomatico cajero = new CajeroAutomatico(identificador,contrasena);
 		do {
 
 			System.out.println("Elija una de las siguinetes opciones:");
@@ -13,24 +23,23 @@ public class Interfaz {
 			System.out.println(" Escriba 3 para sacar dinero");
 			System.out.println(" Escriba 4 para consultar sus ultimos movimientos");
 
-			Scanner scanner = new Scanner(System.in);
 			opcionSeleccionada = scanner.nextInt();
 			
 			switch(opcionSeleccionada) {
 			case 1:
-				System.out.println("La opcion que usted ha elegido es consultar su saldo");
+				cajero.mostrarSaldo();
 				break;
 			case 2:
-				System.out.println("La opcion que usted ha elegido es ingresar dinero");
+				cajero.ingresarSaldo();
 				break;
 			case 3:
-				System.out.println("La opcion que usted ha elegido es sacar dinero");
+				cajero.sacarSaldo();
 				break;
 			case 4:
-				System.out.println("La opcion que usted ha elegido es consultar sus ultimos movimientos");
+				cajero.sacarSaldo();
 				break;
 			default:
-				System.out.println("Muchas gracias por usar nuestros servicios");
+				cajero.salir();
 			}
 		} while (opcionSeleccionada >= 1 && opcionSeleccionada <= 4);
 	}
