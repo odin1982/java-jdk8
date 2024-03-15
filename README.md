@@ -6,8 +6,13 @@ Consiste en tener varios metodos con el mismo nombre pero con diferentes paramet
 ## this
 La palabra clave this hace referencia al objeto actual
 
-# inferencia de tipos con variables
+## inferencia de tipos con variables
 Siempre que se declaraba una variable en Java se tenia que declarar explicitamnete el tipo de datos que se iba a manejar, en Java 10 cambio esto
+
+
+# Otros tipos de datos importantes en Java
+## Introduccion a los arrays
+
 
 ##avance
 Proyecto: Creacion de la clase Cajero
