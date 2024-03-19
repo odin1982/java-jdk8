@@ -10,9 +10,9 @@ La palabra clave this hace referencia al objeto actual
 Siempre que se declaraba una variable en Java se tenia que declarar explicitamnete el tipo de datos que se iba a manejar, en Java 10 cambio esto
 
 
-# Otros tipos de datos importantes en Java
-## Introduccion a los arrays
+#String inmutable
+Quiere decir que el objeto que hemos creado, que ocupa una posicion de memoria no puede ser modificado;
 
 
 ##avance
-Proyecto: Creacion de la clase Cajero
+Proyecto: Operaciones con String
