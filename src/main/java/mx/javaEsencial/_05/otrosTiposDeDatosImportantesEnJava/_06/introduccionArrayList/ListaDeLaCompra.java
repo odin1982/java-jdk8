@@ -1,5 +1,4 @@
 package mx.javaEsencial._05.otrosTiposDeDatosImportantesEnJava._06.introduccionArrayList;
-
 import java.util.ArrayList;
 
 public class ListaDeLaCompra {
@@ -29,8 +28,6 @@ public class ListaDeLaCompra {
 		
 		listaEnero.remove("harina");
 		System.out.println("Mi listaenero contiene: " + listaEnero);
-		
-		
 		
 	}
 }
