@@ -1,4 +1,4 @@
-package mx.javaEsencial._07.removeExclamationMarks;
+package mx.codewars._07.removeExclamationMarks;
 class Solution {
     static String removeExclamationMarks(String s) {
         return s.replaceAll("!", "");
