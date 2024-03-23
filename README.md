@@ -13,6 +13,9 @@ Siempre que se declaraba una variable en Java se tenia que declarar explicitamne
 #String inmutable
 Quiere decir que el objeto que hemos creado, que ocupa una posicion de memoria no puede ser modificado;
 
+##Stream
+Es un flujo continuo de datos
+
 
 ##avance
-Proyecto: Operaciones con String
+Las clases inputStream OutputStream
