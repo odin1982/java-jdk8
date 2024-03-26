@@ -7,6 +7,6 @@ public class ExclamationMarksSeries11 {
 	}
 	
 	public static String replace(final String s) {
-        return s.replaceAll("[aeiou]", "!");
+        return s.replaceAll("[aeiouAEIOU]", "!");
     }
 }
