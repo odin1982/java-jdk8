@@ -2,7 +2,7 @@ package mx.javaEsencial._03.estructurasDeControl;
 
 import java.util.Scanner;
 
-import mx.javaEsencial.proyecto.v04.CajeroAutomatico;
+import mx.javaEsencial.proyecto.v05.CajeroAutomatico;
 
 
 public class Interfaz {
@@ -36,7 +36,7 @@ public class Interfaz {
 				cajero.sacarSaldo();
 				break;
 			case 4:
-				cajero.sacarSaldo();
+				cajero.consultarUltimosMovimientos();
 				break;
 			default:
 				cajero.salir();

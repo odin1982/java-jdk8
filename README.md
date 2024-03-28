@@ -16,6 +16,9 @@ Quiere decir que el objeto que hemos creado, que ocupa una posicion de memoria n
 ##Stream
 Es un flujo continuo de datos
 
+## Generics
+Nos permiten clases interfaces y metodos en los que el tipo de alguna de sus varibales es flexible.
+
 
 ##avance
-Las clases inputStream OutputStream
+proyecto - GeneradorAleatorioDeMovimientos
