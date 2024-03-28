@@ -12,27 +12,30 @@ import utils.Factory;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class Farmer {
     public static void main(String[] args) {
         List<Apple> inventory = Factory.createListApples();
-        List<Apple> greenApples = filterApples(inventory, new AppleGreenColorPredicate());
-        List<Apple> heavyApples = filterApples(inventory,new AppleHeavyWeightPredicate());
-        List<Apple> readAndHeavyApples = filterApples(inventory, new AppleRedAndHeavyPredicate());
+        List<Apple> greenApples = filter(inventory, (Apple apple) -> "green".equals(apple.getColor()));
+        List<Apple> heavyApples = filter(inventory,(Apple apple) ->apple.getWeight() > 150);
+        List<Apple> readAndHeavyApples = filter(inventory,(Apple apple) -> ("red".equals(apple.getColor()) && apple.getWeight() > 150 ));
+        List<Apple> yellowApples = filter(inventory,(Apple apple) -> "yellow".equals(apple.getColor()));
         System.out.println(greenApples);
         System.out.println(heavyApples);
         System.out.println(readAndHeavyApples);
+        System.out.println("yellow apples: " + yellowApples);
 
         System.out.println("-----------------------------------------------------------");
         prettyPrintApple(inventory,new AppleFancyFormatter());
         System.out.println("-----------------------------------------------------------");
         prettyPrintApple(inventory,new AppleSimpleFormatter());
     }
-    public static List<Apple> filterApples(List<Apple> inventory, ApplePredicate p ) {
-        List<Apple> result = new ArrayList<>();
-        for (Apple apple : inventory) {
-            if (p.test(apple)) {
-                result.add(apple);
+    public static <T> List<T> filter(List<T> inventory, Predicate<T> p ) {
+        List<T> result = new ArrayList<>();
+        for (T e : inventory) {
+            if (p.test(e)) {
+                result.add(e);
             }
         }
         return result;
